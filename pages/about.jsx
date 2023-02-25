@@ -53,9 +53,9 @@ export default function About() {
               <Image
                 src="/IMG_0498.jpg"
                 alt="profile picture"
+                width={144}
+                height={144}
                 style={{
-                  width: '144px',
-                  height: '144px',
                   objectFit: 'unset',
                   borderRadius: '20px',
                   margin: 'auto',
@@ -95,10 +95,9 @@ export default function About() {
         <div className={styles.descriptionA} style={{ width: isMobileScreen ? '300px' : '560px', marginTop: '4em' }}>
           <br />
           <p style={{ width: isMobileScreen ? '240px' : '540px', lineHeight: '26px' }}>
-            Hey! I'm <strong>Valentin</strong>.<br />
-            Full stack web developer. I consider myself an autonomous person, with excellent teamwork and looking to be
-            constantly learning. I am passionate about developing tools to facilitate any type of work so that it can be
-            more efficient and effective.
+            Hey! I'm <strong>Valentin</strong>. Full stack web developer. I consider myself an autonomous person, with
+            excellent teamwork and looking to be constantly learning. I am passionate about developing tools to
+            facilitate any type of work so that it can be more efficient and effective.
           </p>
         </div>
         <br />
@@ -131,7 +130,7 @@ export default function About() {
               <TwitterIcon color="primary" fontSize="large" />
             </Link>
             <Link href={'https://www.linkedin.com/in/valentin-benitez/F'} target="_blank" rel="noreferrer">
-              <Image src="/linkedin.png" alt="linkedin-icon" style={{ width: '34px', height: '34px' }} />
+              <Image src="/linkedin.png" alt="linkedin-icon" width={34} height={34} />
             </Link>
             <Link href={''} target="_blank">
               <EmailIcon color="primary" fontSize="large" />
