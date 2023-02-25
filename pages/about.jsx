@@ -95,7 +95,7 @@ export default function About() {
         <div className={styles.descriptionA} style={{ width: isMobileScreen ? '300px' : '560px', marginTop: '4em' }}>
           <br />
           <p style={{ width: isMobileScreen ? '240px' : '540px', lineHeight: '26px' }}>
-            Hey! I'm Valentin. Full stack web developer. I consider myself an autonomous person, with excellent teamwork
+            Hey! I&aposm Valentin. Full stack web developer. I consider myself an autonomous person, with excellent teamwork
             and looking to be constantly learning. I am passionate about developing tools to facilitate any type of work
             so that it can be more efficient and effective.
           </p>
