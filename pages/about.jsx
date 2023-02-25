@@ -8,6 +8,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Grid, useMediaQuery } from '@mui/material'
 import MessageIcon from '@mui/icons-material/Message'
+import Image from 'next/image'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function About() {
@@ -29,7 +30,7 @@ export default function About() {
             <h1 className={styles.code}>Valentin Benitez</h1>
           </Grid>
           <Grid item xs={6} sx={{ paddingTop: '8px' }}>
-            <Link href={'https://walink.co/540849'} target="_blank">
+            <Link href={'https://walink.co/540849'} target="_blank" rel="noreferrer">
               <MessageIcon />
             </Link>
           </Grid>
@@ -49,7 +50,7 @@ export default function About() {
         >
           <Grid item xs={6}>
             <div style={{ paddingRight: '10px' }}>
-              <img
+              <Image
                 src="/IMG_0498.jpg"
                 alt="profile picture"
                 style={{
@@ -81,8 +82,8 @@ export default function About() {
                 <li>📫 How to reach me benitezvalentin046@gmail.com</li>
                 <br />
                 <li>
-                  👨‍💻 All of my projects are available at{' '}
-                  <a href="https://github.com/valenbenitez" target={'_blank'}>
+                  👨‍💻 All of my projects are available at
+                  <a href="https://github.com/valenbenitez" target={'_blank'} rel="noreferrer">
                     https://github.com/valenbenitez
                   </a>
                 </li>
@@ -123,14 +124,14 @@ export default function About() {
               width: '248px',
             }}
           >
-            <Link href={'https://github.com/valenbenitez'} target="_blank">
+            <Link href={'https://github.com/valenbenitez'} target="_blank" rel="noreferrer">
               <GitHubIcon color="primary" fontSize="large" />
             </Link>
-            <Link href={'https://twitter.com/valenbennitez'} target="_blank">
+            <Link href={'https://twitter.com/valenbennitez'} target="_blank" rel="noreferrer">
               <TwitterIcon color="primary" fontSize="large" />
             </Link>
-            <Link href={'https://www.linkedin.com/in/valentin-benitez/F'} target="_blank">
-              <img src="/linkedin.png" alt="linkedin-icon" style={{ width: '34px', height: '34px' }} />
+            <Link href={'https://www.linkedin.com/in/valentin-benitez/F'} target="_blank" rel="noreferrer">
+              <Image src="/linkedin.png" alt="linkedin-icon" style={{ width: '34px', height: '34px' }} />
             </Link>
             <Link href={''} target="_blank">
               <EmailIcon color="primary" fontSize="large" />
