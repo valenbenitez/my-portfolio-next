@@ -84,7 +84,7 @@ export default function About() {
                 <li>
                   👨‍💻 All of my projects are available at
                   <a href="https://github.com/valenbenitez" target={'_blank'} rel="noreferrer">
-                    https://github.com/valenbenitez
+                     https://github.com/valenbenitez
                   </a>
                 </li>
               </ol>
